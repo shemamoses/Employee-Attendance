@@ -1,6 +1,6 @@
 CREATE OR REPLACE PROCEDURE Calculate_Attendance_Statistics (
     p_month IN NUMBER,
-    p_year IN NUMBER,
+    p_year IN NUMBER
 ) IS
     -- Variables to hold employee details
     v_employee_id     NUMBER;
