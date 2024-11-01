@@ -40,3 +40,4 @@ If any unexpected errors occur, it displays an error message.
 Requirements
 Database: Oracle with tables Employees and Attendance.
 PL/SQL Knowledge: Basic understanding of PL/SQL for copying and running the procedure.
+By incorporating these features, you can significantly enhance the utility and user experience of the attendance analysis procedure.
