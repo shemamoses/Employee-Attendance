@@ -1,5 +1,3 @@
-CHANGE PROCEDURE NAME
-
 
 This PL/SQL procedure helps a company analyze employee attendance for a specific month and year. It counts the number of days each employee was present or absent and calculates their attendance percentage.
 
