@@ -62,3 +62,11 @@ BEGIN
         -- Print a separator for readability
         DBMS_OUTPUT.PUT_LINE('-------------------------------------');
     END LOOP;
+
+    EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('No employees found.');
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('An unexpected error occurred: ' || SQLERRM);
+END Calculate_Attendance_Statistics;
+/
