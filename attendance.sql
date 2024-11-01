@@ -7,7 +7,7 @@ CREATE OR REPLACE PROCEDURE Calculate_Attendance_Statistics (
     v_first_name      VARCHAR2(50);
     v_last_name       VARCHAR2(50);
     
-    -- Variables to count attendance
+    -- declare Variables to count attendance
     v_total_presents  NUMBER;
     v_total_absents   NUMBER;
     v_attendance_days NUMBER;
