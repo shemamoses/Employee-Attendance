@@ -14,6 +14,24 @@ Logic:
 
 The procedure loops through each employee and checks their attendance records for the given month.
 For each employee, it counts the days they were Present and Absent.
+It then calculates the Attendance Percentage as:
+
+Attendance Percentage = (Total Presents / Total Days in Month) * 100
+Output:
+
+Displays each employee’s name, total presents, total absents, and attendance percentage.
+If no records are found for an employee, it shows a "No records" message.
+Usage
+Procedure Code
+Copy the procedure code from the file Calculate_Attendance_Statistics.sql and run it in your Oracle SQL environment.
+
+Example Call
+
+BEGIN
+    Calculate_Attendance_Statistics(9, 2024);  -- For September 2024
+END;
+/
+This example checks attendance for September 2024.
 
 Error Handling
 If there are no employees in the database, it shows a "No employees found" message.
